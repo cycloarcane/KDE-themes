@@ -12,9 +12,9 @@
             "Plasma/Theme"
         ],
         "EnabledByDefault": true,
-        "Name": "Black Glass",
-        "Description": "Black Glass",
-        "Id": "blackglass",
+        "Name": "Red Glass",
+        "Description": "Red Glass",
+        "Id": "redglass",
         "Version": "3.1",
         "License": "GPL-2.0+",
         "X-KPackage-Dependencies": [
