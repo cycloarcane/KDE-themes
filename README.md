@@ -5,6 +5,10 @@ A collection of custom and modified KDE Plasma themes.
 ## 📂 Themes
 
 ### Red Glass
+
+![Red Glass Preview](assets/redglass.png)
+
+
 - **Description**: A bright red variant of the popular “Black Glass” theme.  
 - **Origin**: Based on [Black Glass by phob1an](https://www.opencode.net/phob1an/blackglass).  
 - **Modifications**: All I did was update the SVG `<stop>` and `fill` hex codes from the original greys to `#ff0000` (red).
