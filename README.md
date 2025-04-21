@@ -8,27 +8,29 @@ A collection of custom and modified KDE Plasma themes.
 
 ![Red Glass Preview](assets/redglass.png)
 
-
 - **Description**: A bright red variant of the popular “Black Glass” theme.  
 - **Origin**: Based on [Black Glass by phob1an](https://www.opencode.net/phob1an/blackglass).  
 - **Modifications**: All I did was update the SVG `<stop>` and `fill` hex codes from the original greys to `#ff0000` (red).
 
 ## 🚀 Installation
 
-1. Clone this repository:
+### Aurorae Window Decoration
+1. Copy to your local Aurorae themes directory:
    ```bash
-   git clone https://github.com/your -username/KDE -themes.git
+   cp -r ~/Documents/KDE-themes/RedGlass/share/plasma/desktoptheme/blackglass ~/.local/share/aurorae/themes/blackglass
    ```
-2. Copy the theme folder into your local Plasma themes directory:
+2. Open **System Settings → Application Style → Window Decorations**, select **Red Glass**, and click **Apply**.
+
+### Plasma Desktop Theme
+1. Copy to your Plasma desktop theme location:
    ```bash
-   cp -r KDE -themes/Red\ Glass ~/.local/share/aurorae/themes/
+   cp -r ~/Documents/KDE-themes/RedGlass/share/plasma/desktoptheme/blackglass ~/.local/share/plasma/desktoptheme/RedGlass
    ```
-3. Open **System Settings → Application Style → Window Decorations**, select **Red Glass**, and click **Apply**.
-4. To apply panel/widgets icons, copy any modified `.svg` files into:
+2. To apply panel/widgets icons, copy any modified `.svg` files into:
    ```bash
-   ~/.local/share/plasma/desktoptheme/Red\ Glass/icons/
+   ~/.local/share/plasma/desktoptheme/RedGlass/icons/
    ```
-   then reload Plasma:
+3. Reload Plasma:
    ```bash
    kquitapp5 plasmashell && kstart5 plasmashell
    ```
