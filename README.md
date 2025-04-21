@@ -6,6 +6,8 @@ A collection of custom and modified KDE Plasma themes.
 
 ### Red Glass
 
+- This theme is currently not working as a standalone, but you can copy the .svg files into the plasma and aurorae directories to give black glass a red theme. 
+
 ![Red Glass Preview](assets/redglass.png)
 
 - **Description**: A bright red variant of the popular “Black Glass” theme.  
